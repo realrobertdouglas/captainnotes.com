@@ -1,8 +1,8 @@
-title: Captain's Notes
-description: Practical notes from the field and from expeditions: lessons learned, recounted by the one who learned them.
+title: "Captain's Notes"
+description: "Practical notes from the field and from expeditions: lessons learned, recounted by the one who learned them."
 author: Robert Douglas
 github: https://github.com/realrobertdouglas
-tagline: Lessons learned, in the order they were learned.
+tagline: "Lessons learned, in the order they were learned."
 
 enableTags: true
 tagarray: []
