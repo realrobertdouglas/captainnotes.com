@@ -1,0 +1,32 @@
+/* The orrery in the sidebar ring (markup in _layouts/default.html): a sun, six orbits, the planets as
+   dots, the Moon round Earth and Europa round Jupiter. The ring and everything in it take one colour;
+   main.css sets the dark-mode shade on .globe. Planets orbit by CSS; the two moons turn about their
+   planet with SVG's own animateTransform, which default.html pauses under prefers-reduced-motion. */
+.globe {
+  color: #2d7f43;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  height: 140px;
+  overflow: hidden;
+  position: relative;
+  width: 140px;
+  margin: 0 auto 16px; /* centred over the wordmark, in the same block */
+}
+.globe svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes orbit {
+  /* counter-clockwise, as the planets go when seen from above the north pole */
+  to { transform: rotate(-360deg); }
+}
+.orbit {
+  transform-origin: 70px 70px; /* the sun, in the SVG's 140-unit box */
+  animation: orbit 12s linear infinite; /* each planet sets its own period inline */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit { animation: none; }
+}
