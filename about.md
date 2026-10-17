@@ -4,9 +4,9 @@ title: The needs of the many outweigh the needs of the few.
 permalink: /about/
 ---
 
-Captain's Notes is a logbook of practical lessons from the field and from expeditions, written by the person who learned them.
+In junior high math I asked my teacher if I was ever going to use what he was teaching me, and he said no, you probably won't, but a few kids will, and they can use it to make a difference.
 
-Each note is a recount. What the situation was, what was tried, what worked, what did not, and what I would do differently next time. The notes are kept in the order they were learned, and left as they were written.
+I don't claim to know very much, but there is so much to know, and as we set out into the universe, these are some of the conclusions I've come to, so other captains can use those tools to take their ships farther.
 
 Other people's experiments and the lessons they took from them are kept separately, in the [Journal of Experiments](https://journalsofexperiments.com/). The essays and research live at [Douglas Labs](https://douglas.lol/).
 
