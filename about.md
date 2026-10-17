@@ -4,9 +4,9 @@ title: The needs of the many outweigh the needs of the few.
 permalink: /about/
 ---
 
-In junior high math I asked my teacher if I was ever going to use what he was teaching me, and he said no, you probably won't, but a few kids will, and they can use it to make a difference.
+In junior high I asked my math teacher whether I'd ever use what he was teaching. He said: "No, you probably won't. But a few kids will, and they can use it to make a difference."
 
-I don't claim to know very much, but there is so much to know, and as we set out into the universe, these are some of the conclusions I've come to, so other captains can use those tools to take their ships farther.
+I don't claim to know much. There is a great deal to know, and as we set out into the universe, these are the conclusions I've reached so far. They're here for the other captains, the few who can use them to take their ships farther.
 
 Other people's experiments and the lessons they took from them are kept separately, in the [Journal of Experiments](https://journalsofexperiments.com/). The essays and research live at [Douglas Labs](https://douglas.lol/).
 
