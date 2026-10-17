@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Captain's Notes">
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#2d7f43" stroke-width="4"/>
+  <path d="M32 9 38 32 32 55 26 32Z" fill="#2d7f43"/>
+  <path d="M9 32 32 26 55 32 32 38Z" fill="#2d7f43" opacity=".45"/>
+</svg>
