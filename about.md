@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lessons learned, in the order they were learned.
+title: The needs of the many outweigh the needs of the few.
 permalink: /about/
 ---
 
