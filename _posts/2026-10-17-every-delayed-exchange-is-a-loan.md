@@ -21,7 +21,7 @@ The Dutch East India Company faced a longer gap. A voyage to the Indies and back
 
 Across any delay the lender's price has three parts. The time itself, which is interest. The chance the other party never performs, which is credit. And the chance that nobody could perform because the ship sank, which is a separate matter and the subject of [the next essay](/future/2026/10/17/custody-across-a-contact-that-may-never-come.html).
 
-At a year, all three are a few percent and the trade goes on. At twenty years, the first alone decides whether the deal exists. At a human lifetime there is no rate that pays, and the only lenders left are institutions: the Company, the Church, the city. That is the quiet reason the [earlier essay](/future/2026/10/17/anarchy-across-the-stars.html) is right that nobody rules from twenty light-years away. Nobody lends from there either, unless something outlives them.
+At a year, all three are a few percent and the trade goes on. At twenty years, the first alone decides whether the deal exists. At a human lifetime there is no rate that pays, and the only lenders left are institutions: the Company, the Church, the city. The [earlier essay](/future/2026/10/17/anarchy-across-the-stars.html) said nobody rules from twenty light-years away. Nobody lends from there either, unless something outlives them.
 
 ## The protocol's loan
 
@@ -39,6 +39,6 @@ First, that a prepaid window does the same work as a lock without the timer. For
 
 Second, that a posted price per byte is a complete price. It is complete for a link with no delay. For any other link it needs a second term, the carry, published by the relay as a link parameter alongside the light time it already publishes.
 
-Third, that distance changes how long it takes to make a proof and not what the proof is. That is true of the proof. It is not true of the payment. A payment that arrives twenty years late is a smaller payment, discounted by every year of the wait, and a protocol that does not say so has let its relays set the discount in the posted price where nobody can read it.
+Third, that distance changes how long it takes to make a proof and not what the proof is. That is true of the proof. It is not true of the payment. A payment that arrives twenty years late is a smaller payment, discounted by every year of the wait. A protocol that does not say so has let its relays set the discount inside the posted price, where nobody can read it.
 
-None of this touches the receipt. Two signatures still prove delivery. What changes is that the window around them, on a long link, has to carry a rate, the way a bill of exchange carried one in its exchange rate. Trade never waited for the delay to shrink. It priced the delay and went.
+None of this touches the receipt. Two signatures still prove delivery. What changes is that on a long link the window around them has to carry a rate, as the bill of exchange did inside its exchange rate. Trade never waited for the delay to shrink. It priced the delay and went.

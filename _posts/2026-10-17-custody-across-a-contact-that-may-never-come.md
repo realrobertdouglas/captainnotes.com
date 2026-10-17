@@ -23,7 +23,7 @@ Two things made the system work. The custodian signed for what it held. And the 
 
 ## The network that dropped custody
 
-Delay-tolerant networking, the Bundle Protocol that NASA chose for the Moon, moves data as bundles that a node stores until it has a link to pass them on. Version 7 of the protocol removed custody transfer from the core. There was no reliable way to do it, and nothing in the standard said why a stranger's node should accept a bundle at all. A government network does not need the reason. Anything built by many parties does.
+Delay-tolerant networking moves data as bundles that a node stores until it has a link to pass them on. It is the method NASA chose for the Moon, and the current version of its Bundle Protocol dropped custody transfer from the core. There was no reliable way to do it, and nothing in the standard said why a stranger's node should accept a bundle at all. A government network does not need the reason. Anything built by many parties does.
 
 Bandwidth Swap gives the reason in [Appendix A](https://bandwidthswap.com/docs/paper.html#appendix-a.-links-with-delay): custody is a window on the next link, and the relay is paid for it by the next link's receipt. A relay accepts the bundle because the next contact's window is already prepaid. That is a real answer. It tells the relay why to hold. It does not tell anyone what happens when the next contact never opens.
 
@@ -33,7 +33,7 @@ Follow the money. The next window was prepaid by the payer, across the delay, be
 
 The Athenians put the risk on the lender and charged for it. The protocol puts the risk on the payer and is silent. Three things follow.
 
-First, a prepaid window on a contact that never comes needs a rule. If the relay keeps the prepayment, it has been paid for a contact that carried nothing, which is payment for availability, the exact thing [Section 3.3](https://bandwidthswap.com/docs/paper.html#the-sybil-condition) forbids. If the relay refunds it, it held the bundle for nothing and will stop accepting bundles. The sea loan's answer is a premium on the windows that do settle, published as a link parameter, so that the contacts that happen pay for the ones that don't. The purchase commitments of [Section 5.1](https://bandwidthswap.com/docs/paper.html#purchase-commitments) already refund on shortfall. The ordinary window should say what it does.
+First, a prepaid window on a contact that never comes needs a rule. If the relay keeps the prepayment, it has been paid for a contact that carried nothing. That is payment for availability, the one thing [Section 3.3](https://bandwidthswap.com/docs/paper.html#the-sybil-condition) forbids. If the relay refunds it, it held the bundle for nothing and will stop accepting bundles. The sea loan's answer is a premium on the windows that do settle, published as a link parameter, so that the contacts that happen pay for the ones that don't. The purchase commitments of [Section 5.1](https://bandwidthswap.com/docs/paper.html#purchase-commitments) already refund on shortfall. The ordinary window should say what it does.
 
 Second, the relay in custody is holding someone else's property with no stated term. A bill of lading named the port and the voyage. A link's contact plan should name how long a relay must hold a bundle before it may drop it, and that term is part of the price.
 
