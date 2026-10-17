@@ -15,10 +15,20 @@ layout: default
   </span>
 {% endif %}
 
+{% comment %}"I am 5": an entry with a file of the same slug in _simple/ gets a switch between the full text and a simple one (styles: main.css .simple-toggle; script: static/js/simple-toggle.js){% endcomment %}
+{% assign simple = site.simple | where: "slug", page.slug | first %}
+{% if simple %}
+<div class="simple-row">
+  <button type="button" class="simple-toggle" id="js-simple-toggle" aria-pressed="false" hidden>I am 5</button>
+  <span class="simple-hint">the same ideas, in words a five-year-old can follow</span>
+</div>
+{% endif %}
 <div class="content">
-  <div class="post">{{ content }}</div>
+  <div class="post" id="js-post-grown">{{ content }}</div>
+  {% if simple %}<div class="post post--simple" id="js-post-simple" hidden>{{ simple.content | markdownify }}</div>{% endif %}
   {% include share-page.html %}
 </div>
+{% if simple %}<script src="/static/js/simple-toggle.js"></script>{% endif %}
 
 {% comment %}More in this post's first category: up to three titles, newest first.{% endcomment %}
 {% assign more_cat = page.categories | first %}

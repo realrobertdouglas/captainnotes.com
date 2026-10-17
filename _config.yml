@@ -8,6 +8,11 @@ enableTags: true
 tagarray: []
 
 # Every file in _posts is an entry; the post layout shows its date and categories
+# _simple/<slug>.md holds an entry's "I am 5" version, matched to the post by slug; never output on its own
+collections:
+  simple:
+    output: false
+
 defaults:
   - scope: { path: "", type: posts }
     values: { layout: post, comments: false }

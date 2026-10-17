@@ -120,6 +120,69 @@ html[data-theme="dark"] .post-subtitle {
   color: #9a9a9a;
 }
 
+/* The "I am 5" switch on entries that carry a simple version (post.html; static/js/simple-toggle.js) */
+.simple-row {
+  margin: 8px 0 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.simple-toggle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #e3e3e3;
+  background: #f6f6f4;
+  color: #666;
+  border-radius: 999px;
+  padding: 3px 12px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.simple-toggle[hidden] {
+  display: none;
+}
+.simple-toggle:hover,
+.simple-toggle:focus-visible {
+  border-color: #2f8f4a;
+  outline: none;
+}
+.simple-toggle[aria-pressed="true"] {
+  border-color: #2d7f43;
+  color: #2d7f43;
+  background: #eef6f0;
+}
+.simple-hint {
+  display: none;
+  font-size: 13px;
+  color: #8c8c8c;
+}
+.simple-toggle[aria-pressed="true"] + .simple-hint {
+  display: inline;
+}
+.post--simple {
+  font-size: 18px;
+  line-height: 1.6;
+}
+html[data-theme="dark"] .simple-toggle {
+  border-color: #34383c;
+  background: #22262a;
+  color: #b8b8b8;
+}
+html[data-theme="dark"] .simple-toggle:hover,
+html[data-theme="dark"] .simple-toggle:focus-visible {
+  border-color: #5cc474;
+}
+html[data-theme="dark"] .simple-toggle[aria-pressed="true"] {
+  border-color: #5cc474;
+  color: #5cc474;
+  background: #1a2a1e;
+}
+html[data-theme="dark"] .simple-hint {
+  color: #7d7d7d;
+}
+
 /* Content */
 /* Section headings in a post stay smaller than the 25px post title (Bootstrap sets h2 at 30px; some older posts use h1 in the body) */
 div.post h1,

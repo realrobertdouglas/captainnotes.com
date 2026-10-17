@@ -21,6 +21,7 @@ GitHub rebuilds the site within a minute or two.
 ## How the site is put together
 
 - `_posts/` — the entries. Front matter: `title`, `date` (UTC), `categories: [name]`, optional `subtitle` and `image`.
+- `_simple/` — an entry's "I am 5" version: a file with the same slug as the post (`_simple/what-happened.md`), written for a five-year-old. The post then shows an "I am 5" switch at the top. Entries without one show no switch.
 - `category/` — one small page per category; the post header links to `/category/<name>`, so add a page here when you start a new category.
 - `index.html` — the list of entries, newest first. `about.md` — the purpose of the site and the appearance toggle.
 - `_layouts/`, `_includes/`, `static/` — the theme. `static/img/posts/` is where a post's `image:` lives; `static/img/favicon.svg` is the site mark.
