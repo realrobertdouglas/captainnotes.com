@@ -8,7 +8,7 @@ In junior high I asked my math teacher whether I'd ever use what he was teaching
 
 I don't claim to know much. There is a great deal to know, and as we set out into the universe, these are the conclusions I've reached so far. They're here for the other captains, the few who can use them to take their ships farther.
 
-Other people's experiments and the lessons they took from them are kept separately, in the [Journal of Experiments](https://journalsofexperiments.com/). The essays and research live at [Douglas Labs](https://douglas.lol/).
+Other people's experiments and the lessons they took from them are kept separately, in the [Journal of Experiments](https://journalofexperiments.com/). The essays and research live at [Douglas Labs](https://douglas.lol/).
 
 <fieldset class="theme-toggle" id="js-theme-toggle" hidden>
   <legend>Appearance</legend>
